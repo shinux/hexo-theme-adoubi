@@ -4,7 +4,7 @@ extends includes/layout
 block content
   .post-item
   h2.post-title-wrapper
-      a.post-title(href=config.root + page.path)=page.title
+      p.post-title=page.title
   if page.date && page.source !== 'about/index.md'
       div.post-date
         time(datetime=page.date.toJSON())=date(page.date, date_format)
