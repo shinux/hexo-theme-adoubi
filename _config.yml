@@ -1,0 +1,15 @@
+
+Home: /
+Archives: /archives
+About: /about
+
+language: en
+
+author:
+description:
+
+favicon: /favicon.ico
+
+# stylesheets loaded in the <head>
+stylesheets:
+- /css/hexo-theme-adoubi.css

@@ -1,0 +1,42 @@
+
+- var pageTitle = page.title || config.subtitle || ''
+
+doctype html
+html(lang=config.language)
+  head
+    meta(charset='UTF-8')
+    title= pageTitle
+    link(rel='stylesheet', href='http://obfnm2kw5.bkt.clouddn.com/normalize.css')
+    if theme.stylesheets !== undefined && theme.stylesheets.length > 0
+      each url in theme.stylesheets
+        link(rel='stylesheet', href=url)
+    link(rel="icon", href=config.root + 'images/favicon.ico')
+  body
+    div.header
+      div.header__title
+        a(href="/")
+          figure.header__title__image
+      div.header__archive
+        a(href="/archives")
+          figure.header__archive__image
+          span.header__archive__title="archive"
+      div.header__about
+        a(href="/about")
+          figure.header__about__image
+          span.header__about__title="about"
+      div.header__github
+        a(href="https://github.com/shinux" target="_blank")
+          figure.header__github__image
+          span.header__github__title="github"
+      div.header__feed
+        a(href="/atom.xml")
+          figure.header__feed__image
+          span.header__feed__title="feed"
+      div.header__notes
+    div.content
+      block content
+    div.footer
+        div.footer-copyright
+          | Theme By 
+          a(href="https://github.com/shinux/hexo-theme-adoubi")="Adoubi"
+          |  , Powered By Hexo.

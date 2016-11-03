@@ -1,0 +1,20 @@
+extends includes/layout
+
+block content
+    - var categoriesList = list_categories({ show_count: false })
+    - var tagsList = list_tags({ show_count: false })
+    - var archivesList = list_archives({ show_count: false })
+
+    div.archive
+      each post in site.posts.sort('date', -1).toArray()
+        .archive-item
+          div
+            if post.link
+                a.archive-item__link(href=url_for(post.link) target="_blank")
+                  span.archive-item__link__time(datetime=date_xml(post.date))= date(post.date)
+                  span.archive-item__link__title=post.title || 'No Title'
+            else
+                a.archive-item__link(href=url_for(post.path))
+                  span.archive-item__link__time(datetime=date_xml(post.date))= date(post.date)
+                  span.archive-item__link__title=post.title || 'No Title'
+
