@@ -1,8 +1,8 @@
 # hexo-theme-adoubi
 
-another minimalist compatible hexo theme. [online demo](http://blog.sinux.me)
+another minimalist compatible hexo theme. [online demo](http://sinux.me)
 
-![](http://obfnm2kw5.bkt.clouddn.com/Screenshot%202016-11-03%2015.37.21.png)
+![](http://obfnm2kw5.bkt.clouddn.com/Screenshot%202016-11-03%2015.57.18.png)
 
 ## Installation
 
@@ -17,11 +17,11 @@ clone theme
 
     git clone https://github.com/shinux/hexo-theme-adoubi.git themes/adoubi
 
-modify theme selection
+modify site config
 
     theme: adoubi
 
-upgrade:
+upgrade
 
     cd themes/adoubi
     git pull
@@ -33,4 +33,4 @@ resources usage:
 - Myriad font
 - normalize.css
 
-Leave the `Theme By Adoubi , Powered By Hexo.` and do whatever you want.
+Keep `Theme By Adoubi , Powered By Hexo.` in footer and do whatever you want.
