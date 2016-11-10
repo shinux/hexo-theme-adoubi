@@ -2,7 +2,7 @@
 
 another simple hexo theme. [online demo](http://sinux.me)
 
-![](http://obfnm2kw5.bkt.clouddn.com/Screenshot%202016-11-03%2019.18.25.png)
+![](http://obfnm2kw5.bkt.clouddn.com/Screenshot%202016-11-10%2018.22.38.png)
 
 ## Installation
 
