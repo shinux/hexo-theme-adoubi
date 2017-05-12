@@ -2,7 +2,7 @@
 
 another simple hexo theme. [online demo](http://sinux.me)
 
-![](http://obfnm2kw5.bkt.clouddn.com/Screenshot%202016-11-10%2018.22.38.png)
+![demo](demo.png)
 
 ## Installation
 
@@ -24,7 +24,15 @@ modify site config
 upgrade
 
     cd themes/adoubi
-    git pull
+    git pull origin master
+
+## Upgrade Logs
+
+v0.0.2 May 12 2017:
+
+- remove big-black-dirty-ugly header and personal logo.
+- make feed icon more hidden.
+- hide post date on list page.
 
 ## Copyright
 
