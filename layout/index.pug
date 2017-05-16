@@ -13,7 +13,7 @@ block content
                 a.archive-item__link(href=url_for(post.link) target="_blank")
                   span.archive-item__link__title=post.title || 'No Title'
             else
-                a.archive-item__link(href=url_for(post.path))
+                a.archive-item__link(href=url_for(post.path) target="_blank")
                   span.archive-item__link__title=post.title || 'No Title'
 
 

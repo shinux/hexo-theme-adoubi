@@ -10,14 +10,19 @@ html(lang=config.language)
     if theme.stylesheets !== undefined && theme.stylesheets.length > 0
       each url in theme.stylesheets
         link(rel='stylesheet', href=url)
-    link(rel="icon", href=config.root + 'images/favicon.ico')
+    link(rel="icon", href=config.root + '/images/favicon.ico')
   body
+    div.header
+      a.github-link(href=theme.github)
+        img.github-image(src='/images/Aquicon-Github.png')
+      a.email-link(href='mailto:' + theme.email)
+        img.email-image(src='/images/email.png')
+      a.subscribe-link(href="/atom.xml")
+        img.subscribe-image(src='/images/subscribe.png')
     div.content
       block content
     div.footer
         div.footer-copyright
           | Theme By 
           a(href="https://github.com/shinux/hexo-theme-adoubi")="Adoubi"
-          |  , Powered By Hexo. 
-          a.feed-link(href="/atom.xml")
-           img.feed-image(src="/images/feed.png")
+          |  , Powered By Hexo.

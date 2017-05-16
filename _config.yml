@@ -8,6 +8,9 @@ language: en
 author:
 description:
 
+github:
+email:
+
 favicon: /favicon.ico
 
 # stylesheets loaded in the <head>
