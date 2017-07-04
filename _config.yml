@@ -1,4 +1,6 @@
 
+root: /
+
 Home: /
 Archives: /archives
 About: /about
@@ -12,6 +14,7 @@ github:
 email:
 
 favicon: /favicon.ico
+
 
 # stylesheets loaded in the <head>
 stylesheets:

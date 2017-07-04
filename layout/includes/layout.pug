@@ -10,7 +10,7 @@ html(lang=config.language)
     if theme.stylesheets !== undefined && theme.stylesheets.length > 0
       each url in theme.stylesheets
         link(rel='stylesheet', href=url)
-    link(rel="icon", href=config.root + '/images/favicon.ico')
+    link(rel="icon", href=config.root + 'images/favicon.ico')
   body
     div.header
       a.github-link(href=theme.github)

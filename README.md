@@ -21,6 +21,8 @@ modify site config
 
     theme: adoubi
 
+replace `themes/adoubi/sources/images/favicon.ico` with your own preference
+
 upgrade
 
     cd themes/adoubi
