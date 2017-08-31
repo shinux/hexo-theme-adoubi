@@ -28,6 +28,17 @@ upgrade
     cd themes/adoubi
     git pull origin master
 
+
+## Display images in article:
+
+if image located at site's `source/images` :
+
+    <img src="/images/your-image.png">
+
+> images will be limited to `max-width: 100%` compared to parent class `post-content`.
+
+**NOTICE: hexo will use site's source preferentially**
+
 ## Upgrade Logs
 
 v0.0.2 May 12 2017:
