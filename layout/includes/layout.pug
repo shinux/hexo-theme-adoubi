@@ -14,11 +14,11 @@ html(lang=config.language)
   body
     div.header
       a.github-link(href=theme.github)
-        img.github-image(src='images/Aquicon-Github-small.png')
+        img.github-image(src=config.root + 'images/Aquicon-Github-small.png')
       a.email-link(href='mailto:' + theme.email)
-        img.email-image(src='images/email-small.png')
+        img.email-image(src=config.root + 'images/email-small.png')
       a.subscribe-link(href="/atom.xml")
-        img.subscribe-image(src='images/subscribe-small.png')
+        img.subscribe-image(src=config.root + 'images/subscribe-small.png')
     div.content
       block content
     div.footer
