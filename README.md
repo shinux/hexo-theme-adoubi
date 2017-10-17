@@ -1,6 +1,6 @@
 # hexo-theme-adoubi
 
-another simple hexo theme. [online demo](http://sinux.me)
+another simple hexo theme. [online demo](https://sinux.me)
 
 ![demo](demo.png)
 
