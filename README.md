@@ -39,19 +39,11 @@ if image located at site's `source/images` :
 
 **NOTICE: hexo will use site's source preferentially**
 
-## Upgrade Logs
-
-v0.0.2 May 12 2017:
-
-- remove big-black-dirty-ugly header and personal logo.
-- make feed icon more hidden.
-- hide post date on list page.
-
 ## Copyright
 
 resources usage:
 
-- Myriad font
+- SF Pro Text font
 - normalize.css
 
 Keep `Theme By Adoubi , Powered By Hexo.` in footer and do whatever you want.
