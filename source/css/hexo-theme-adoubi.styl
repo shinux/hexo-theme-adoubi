@@ -49,6 +49,25 @@
   src local('☺︎'), url('fonts/SF-Pro-Text-Black.otf') format("otf")
 
 
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+$fade-in
+  opacity 0
+  -webkit-animation fadeIn ease-in 1
+  -moz-animation fadeIn ease-in 1
+  animation fadeIn ease-in 1
+
+  -webkit-animation-fill-mode forwards
+  -moz-animation-fill-mode forwards
+  animation-fill-mode forwards
+
+  -webkit-animation-duration 1s
+  -moz-animation-duration 1s
+  animation-duration 1s
+
+
 body
   font-family 'SF Pro Text'
   -webkit-font-smoothing antialiased
@@ -106,6 +125,11 @@ strong
   font-weight 600
 
 .content
+  @extends $fade-in
+  -webkit-animation-delay 0.4s
+  -moz-animation-delay 0.4s
+  animation-delay 0.4s
+
   flex 1
   font-size 14px
   line-height 1.7375
@@ -121,6 +145,11 @@ strong
     margin-right auto
 
 .footer
+  @extends $fade-in
+  -webkit-animation-delay 1.0s
+  -moz-animation-delay 1.0s
+  animation-delay 1.0s
+
   text-align center
   color #999
   margin 0 auto
@@ -152,6 +181,10 @@ strong
   margin-left 30%
 
 .archive-item
+  @extends $fade-in
+  -webkit-animation-delay 0.4s
+  -moz-animation-delay 0.4s
+  animation-delay 0.4s
   div
     margin-top 1%
     margin-bottom 1%
@@ -177,24 +210,6 @@ strong
 .header
   margin-top 20px
   text-align center
-
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
-
-$fade-in
-  opacity 0
-  -webkit-animation fadeIn ease-in 1
-  -moz-animation fadeIn ease-in 1
-  animation fadeIn ease-in 1
-
-  -webkit-animation-fill-mode forwards
-  -moz-animation-fill-mode forwards
-  animation-fill-mode forwards
-
-  -webkit-animation-duration 1s
-  -moz-animation-duration 1s
-  animation-duration 1s
 
 .github-image
   @extends $fade-in
