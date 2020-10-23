@@ -45,5 +45,6 @@ resources usage:
 
 - SF Pro Text font
 - normalize.css
+- heti.css
 
 Keep `Theme By Adoubi , Powered By Hexo.` in footer and do whatever you want.
