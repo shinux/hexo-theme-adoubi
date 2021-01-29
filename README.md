@@ -8,10 +8,11 @@ another simple hexo theme. [online demo](https://sinux.me)
 
 hexo-theme-adoubi developed with hexo 3.2
 
-plugin dependencies:
+*plugin dependencies*:
 
 - hexo-renderer-pug
 - hexo-generator-feed
+- hexo-toc
 
 clone theme
 
