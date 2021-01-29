@@ -40,6 +40,10 @@ if image located at site's `source/images` :
 
 **NOTICE: hexo will use site's source preferentially**
 
+## Display toc in article:
+
+simply use `<!-- toc -->` on top of article. for more options see [hexo-toc](https://github.com/bubkoo/hexo-toc)
+
 ## Copyright
 
 resources usage:
